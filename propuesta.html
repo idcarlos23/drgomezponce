@@ -176,6 +176,37 @@ footer a{color:#CBD5E1;text-decoration:none;margin-left:18px}
  section{padding:72px 0}
 }
 @media(max-width:560px){.f2{grid-template-columns:1fr}.events li{grid-template-columns:1fr;gap:2px}.logos img{height:38px}.logos img.w{height:26px}form,.vc{padding:24px 20px}}
+
+html,body{overflow-x:hidden;max-width:100%}
+.grid>*,.bio>*,.two>*,.contact>*,.f2>*,.topics>*,.facts>*{min-width:0}
+h1,h2,h3,h4,p,li,a{overflow-wrap:break-word}
+@media(max-width:960px){
+ .hero{padding:36px 0 40px}
+ .portrait{max-width:230px;margin:0 auto}
+ .portrait:before{inset:10px -10px -10px 10px}
+ .hero h1{font-size:34px}
+ .hero .tag{font-size:17px}
+ .hero .ctas .btn{width:100%;justify-content:center}
+}
+@media(max-width:560px){
+ .wrap{padding:0 18px}
+ .pt{font-size:12.5px;padding:7px 12px}
+ nav .wrap{gap:12px;height:58px}
+ nav .brand{font-size:16px}
+ nav .brand small{display:none}
+ nav .btn{padding:8px 12px;font-size:13px}
+ .hero h1{font-size:30px}
+ .eyebrow{font-size:11px;letter-spacing:.1em}
+ .facts b{font-size:22px}.facts div{padding:16px 12px}
+ .lead{font-size:16px}
+ h2.serif{font-size:26px}
+ .topic{padding:22px}.topics{grid-template-columns:1fr}
+ .card{padding:22px}
+ .long p:first-of-type:first-letter{font-size:44px}
+ .refer{padding:18px}.refer .btn{width:100%;justify-content:center}
+ footer a{margin:0 14px 0 0}
+}
+@media(max-width:560px){.hide-s{display:none}nav .btn{text-transform:capitalize}}
 </style>
 </head>
 <body>
@@ -187,7 +218,7 @@ footer a{color:#CBD5E1;text-decoration:none;margin-left:18px}
  <div class="links">
   <a href="#bio">Biografía</a><a href="#conferencias">Conferencias</a><a href="#investigacion">Investigación</a><a href="#asesoria">Asesoría</a><a href="#contacto">Contacto</a>
  </div>
- <a class="btn btn-p" href="#contacto">Solicitar conferencia</a>
+ <a class="btn btn-p" href="#contacto"><span class="hide-s">Solicitar </span>conferencia</a>
 </div></nav>
 
 <header class="hero"><div class="wrap">
