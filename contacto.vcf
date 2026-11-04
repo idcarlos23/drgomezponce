@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Gómez Ponce;Carlos Augusto;;Dr.;
+FN:Dr. Carlos A. Gómez Ponce
+TITLE:Infectología
+EMAIL;TYPE=WORK:carlos@infectologia.org
+TEL;TYPE=WORK,VOICE:+526566907705
+ADR;TYPE=WORK:;;Av. Francisco Villarreal Torres 2050, Plaza Sendero;Ciudad Juárez;Chihuahua;;México
+URL:https://drgomezponce.com
+URL:https://infectologia.org
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/idcarlos23/
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/drgomezponce/
+END:VCARD
