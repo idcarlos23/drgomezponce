@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /propuesta.html
+Sitemap: https://drgomezponce.com/sitemap.xml
