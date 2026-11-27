@@ -96,6 +96,8 @@ h3.blk{font-size:26px;margin:0 0 22px}
 .on{background:#fff;border:1px solid var(--line);border-radius:4px;padding:26px}
 .on .tag{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);margin-bottom:10px}
 .on h4{font:500 19px/1.35 Newsreader,serif;margin:0 0 8px}.on p{margin:0;font-size:14.5px;color:var(--mute);line-height:1.6}
+.nw{white-space:nowrap}
+@media(max-width:600px){h1 .nw{display:block}}
 /* gallery */
 h3.gh{margin-top:72px}
 .gal{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
@@ -144,7 +146,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-betw
 <section class="hero"><div class="wrap hgrid">
 <div>
 <p class="kick">Infectología · Pediatría · Salud Pública</p>
-<h1>Dr. Carlos A. Gómez Ponce</h1>
+<h1>Dr. Carlos A. <span class="nw">Gómez Ponce</span></h1>
 <p class="sub">Médico infectólogo y pediatra certificado, investigador clínico y docente universitario en la frontera México–Estados Unidos (Ciudad Juárez).</p>
 <ul class="pills"><li>VIH y Tratamiento Antirretroviral</li><li>VIH Perinatal y Sífilis Congénita</li><li>Hepatitis Virales</li><li>Optimización de Antimicrobianos (PROA)</li><li>Salud Fronteriza y Global</li></ul>
 <div class="ctas"><a class="btn p" href="#speaking">Invitar a Conferencia / Colaboración</a><a class="btn g" href="https://infectologia.org" target="_blank" rel="noopener">Consulta Médica (infectologia.org) ↗</a></div>
