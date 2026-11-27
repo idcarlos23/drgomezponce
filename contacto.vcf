@@ -2,12 +2,15 @@ BEGIN:VCARD
 VERSION:3.0
 N:Gómez Ponce;Carlos Augusto;;Dr.;
 FN:Dr. Carlos A. Gómez Ponce
-TITLE:Infectología
+TITLE:Infectious Diseases & Pediatrics / Infectología y Pediatría
+ORG:IMSS HGZ No. 35 · UACJ · infectologia.org
 EMAIL;TYPE=WORK:carlos@infectologia.org
 TEL;TYPE=WORK,VOICE:+526566907705
 ADR;TYPE=WORK:;;Av. Francisco Villarreal Torres 2050, Plaza Sendero;Ciudad Juárez;Chihuahua;;México
 URL:https://drgomezponce.com
 URL:https://infectologia.org
+URL:https://orcid.org/0000-0001-9994-2716
 X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/idcarlos23/
 X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/drgomezponce/
+NOTE:ORCID 0000-0001-9994-2716
 END:VCARD
